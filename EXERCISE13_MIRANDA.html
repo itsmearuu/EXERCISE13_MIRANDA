@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Carter+One&family=Libre+Baskerville&family=Lugrasimo&family=Monoton&family=Roboto+Slab:wght@300&family=Ysabeau+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="EXERCISE13_MIRANDA.css">
+</head>
+<body>
+    <div class="container p-5">
+        <div class="row d-md-flex conv">
+            <h2 class="converter-title mb-5">Length Converter</h2>
+            
+            <div class="col-md-6 mb-2 order-1 res">
+                <input class="form-control" type="text" placeholder="From" id="input">
+            </div>
+
+            <div class="col-md-6 order-3 res">
+                <select class="form-select" id="inputType">
+                    <option value="Meter">Meter</option>
+                    <option value="Kilometer">Kilometer</option>
+                    <option value="Centimeter">Centimeter</option>
+                    <option value="Inch">Inch</option>
+                    <option value="Millimeter">Millimeter</option>
+                    <option value="Nanometer">Nanometer</option>
+                </select>
+            </div>
+
+            <div class="col-md-6 order-2 res">
+                <input class="form-control" type="text" placeholder="To" id="result">
+            </div>
+            <div class="col-md-6 order-4 res">
+                <select class="form-select" id="resultType">
+                    <option value="Meter">Meter</option>
+                    <option value="Kilometer">Kilometer</option>
+                    <option value="Centimeter">Centimeter</option>
+                    <option value="Inch">Inch</option>
+                    <option value="Millimeter">Millimeter</option>
+                    <option value="Nanometer">Nanometer</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/EXERCISE13_MIRANDA.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>
